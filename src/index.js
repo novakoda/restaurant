@@ -19,8 +19,5 @@ const clearCont = () => {
 };
 
 const showTab = (tab) => {
-  let name = "tab";
-  name += tab.innerHTML;
-
-  window[name]();
+  tab.id === 'home' ? tabHome() : tab.id === 'menu' ? tabMenu() : tab.id === 'about' ? tabAbout() : tabContact();
 };
