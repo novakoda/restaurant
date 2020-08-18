@@ -20,6 +20,7 @@ export const tabBar = () => {
   tabContact.innerHTML = 'Contact';
 
   let ul = document.createElement('ul');
+  ul.id = 'tab-bar'
   ul.append(tabHome, tabMenu, tabAbout, tabContact);
   let main = document.getElementById('main');
   main.append(ul);
