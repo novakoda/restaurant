@@ -23,7 +23,7 @@ body {
 }
 
 #content {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   text-align: center;
   background-color: rgba(53, 33, 19, 0.75);
