@@ -1,6 +1,7 @@
 import {tabBar} from './tab-bar.js';
 import {tabHome} from './tabs/home.js';
 import {tabAbout} from './tabs/about.js';
+import {tabContact} from './tabs/contact.js';
 
 import "./index.css";
 import "./assets/retreat.jpg";
