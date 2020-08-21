@@ -1,7 +1,6 @@
 import {tabBar} from './tab-bar.js';
 import {tabHome} from './tabs/home.js';
-import {tabAbout} from './tabs/about.js';
-import {tabContact} from './tabs/contact.js';
+import {clearCont, showTab} from './utils.js';
 
 import "./index.css";
 import "./assets/retreat.jpg";
@@ -9,20 +8,14 @@ import "./assets/retreat.jpg";
 tabBar();
 tabHome();
 
-let tabs = document.querySelectorAll('.tab');
+let content = document.getElementById('content');
+let menuCont = document.getElementById('menu-container');
+
+let tabs = document.querySelectorAll('.main-tab');
 tabs.forEach((tab) => {
   tab.addEventListener('click', function() {
     console.log('clicked a tab');
-    clearCont();
+    clearCont(content);
     showTab(tab);
   })
 });
-
-const clearCont = () => {
-  let content = document.getElementById('content');
-  content.innerHTML = "";
-};
-
-const showTab = (tab) => {
-  tab.id === 'home' ? tabHome() : tab.id === 'menu' ? tabMenu() : tab.id === 'about' ? tabAbout() : tabContact();
-};

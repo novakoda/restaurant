@@ -1,22 +1,22 @@
 export const tabBar = () => {
   let tabHome = document.createElement('li');
   tabHome.id = 'home';
-  tabHome.className = 'tab';
+  tabHome.className = 'tab main-tab';
   tabHome.innerHTML = 'Home';
 
   let tabMenu = document.createElement('li');
   tabMenu.id = 'menu';
-  tabMenu.className = 'tab';
+  tabMenu.className = 'tab main-tab';
   tabMenu.innerHTML = 'Menu';
 
   let tabAbout = document.createElement('li');
   tabAbout.id = 'about';
-  tabAbout.className = 'tab';
+  tabAbout.className = 'tab main-tab';
   tabAbout.innerHTML = 'About';
 
   let tabContact = document.createElement('li');
   tabContact.id = 'contact';
-  tabContact.className = 'tab';
+  tabContact.className = 'tab main-tab';
   tabContact.innerHTML = 'Contact';
 
   let ul = document.createElement('ul');
