@@ -41,22 +41,3 @@ body {
   padding: 0 20px 10px 20px;
   margin: 0 auto;
 }
-
-.menu-grid {
-  display: grid;
-  margin-top: 1rem;
-  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-  grid-gap: 1rem;
-}
-
-.menu-item-pic {
-  position: relative;
-  width: 90%;
-  height: 150px;
-  margin: auto;
-}
-
-.menu-item-pic h3 {
-  position: relative;
-  top: 3rem;
-}

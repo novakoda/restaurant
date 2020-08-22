@@ -1,44 +1,107 @@
+.menu-grid {
+  display: grid;
+  margin-top: 1rem;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.desert-grid {
+  grid-template: 1fr / 1fr 1fr 1fr 1fr;
+}
+
+.menu-item-pic {
+  position: relative;
+  width: 90%;
+  height: 150px;
+  margin: auto;
+  background-size: cover !important;
+}
+
+.menu-item-pic h3 {
+  position: relative;
+  top: 3rem;
+}
+
 #pizza {
   background: url("../assets/menu/pizza.jpg") no-repeat center center;
-  background-size: cover;
 }
 
 #spaghetti {
   background: url("../assets/menu/spaghetti.jpg") no-repeat center center;
-  background-size: cover;
 }
 
 #lasagna {
   background: url("../assets/menu/lasagna.jpg") no-repeat center center;
-  background-size: cover;
 }
 
 #pasta {
   background: url("../assets/menu/pasta.jpg") no-repeat center center;
-  background-size: cover;
 }
 
 #rollatini {
   background: url("../assets/menu/rollatini.jpg") no-repeat center center;
-  background-size: cover;
 }
 
 #calzone {
   background: url("../assets/menu/calzone.jpg") no-repeat center center;
-  background-size: cover;
 }
 
 #scaloppine {
   background: url("../assets/menu/scaloppine.jpg") no-repeat center center;
-  background-size: cover;
 }
 
 #piccata {
   background: url("../assets/menu/piccata.jpg") no-repeat center center;
-  background-size: cover;
 }
 
 #vitello {
   background: url("../assets/menu/vitello.jpg") no-repeat center center;
-  background-size: cover;
+}
+
+#churros {
+  background: url("../assets/menu/churros.jpg") no-repeat center center;
+}
+
+#pasteis {
+  background: url("../assets/menu/pasteis.jpg") no-repeat center center;
+}
+
+#smores {
+  background: url("../assets/menu/smores.jpg") no-repeat center center;
+}
+
+#tiramisu {
+  background: url("../assets/menu/tiramisu.jpg") no-repeat center center;
+}
+
+#airen {
+  background: url("../assets/menu/airen.jpg") no-repeat center center;
+}
+
+#blanc {
+  background: url("../assets/menu/blanc.jpg") no-repeat center center;
+}
+
+#cabernet {
+  background: url("../assets/menu/cabernet.jpg") no-repeat center center;
+}
+
+#chardonnay {
+  background: url("../assets/menu/chardonnay.jpg") no-repeat center center;
+}
+
+#garnacha {
+  background: url("../assets/menu/garnacha.jpg") no-repeat center center;
+}
+
+#tiramisu {
+  background: url("../assets/menu/tiramisu.jpg") no-repeat center center;
+}
+
+#merlot {
+  background: url("../assets/menu/merlot.jpg") no-repeat center center;
+}
+
+#tempranillo {
+  background: url("../assets/menu/tempranillo.jpg") no-repeat center center;
 }
