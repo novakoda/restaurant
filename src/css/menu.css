@@ -20,6 +20,7 @@
 .menu-item-pic h3 {
   position: relative;
   top: 3rem;
+  text-shadow: 0 0 10px #510800;
 }
 
 #pizza {
