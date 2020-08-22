@@ -2,8 +2,9 @@ import {tabBar} from './tab-bar.js';
 import {tabHome} from './tabs/home.js';
 import {clearCont, showTab} from './utils.js';
 
-import "./index.css";
-import "./assets/retreat.jpg";
+import "./css/index.css";
+import "./css/menu.css";
+
 
 tabBar();
 tabHome();

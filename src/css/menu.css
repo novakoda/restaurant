@@ -1,0 +1,44 @@
+#pizza {
+  background: url("../assets/menu/pizza.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#spaghetti {
+  background: url("../assets/menu/spaghetti.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#lasagna {
+  background: url("../assets/menu/lasagna.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#pasta {
+  background: url("../assets/menu/pasta.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#rollatini {
+  background: url("../assets/menu/rollatini.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#calzone {
+  background: url("../assets/menu/calzone.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#scaloppine {
+  background: url("../assets/menu/scaloppine.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#piccata {
+  background: url("../assets/menu/piccata.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#vitello {
+  background: url("../assets/menu/vitello.jpg") no-repeat center center;
+  background-size: cover;
+}
